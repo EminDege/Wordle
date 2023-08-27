@@ -1,9 +1,11 @@
+import React from 'react';
 import './App.css';
+import WordleGame from './WordleGame';
 
 function App() {
   return (
     <div className="App">
-      <h1>Worlde</h1>
+      <WordleGame />
     </div>
   );
 }

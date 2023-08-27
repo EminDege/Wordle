@@ -1,0 +1,46 @@
+.wordle-game {
+    text-align: center;
+    margin-top: 100px;
+}
+
+input {
+    text-transform: lowercase;
+    padding: 5px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.feedback {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.feedback-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
