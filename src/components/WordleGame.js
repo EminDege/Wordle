@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './WordleGame.css';
 
-const WordleGame = () => {
+const WordleGame = (props) => {
     const [selectedWord, setSelectedWord] = useState('apple');
     const [userGuess, setUserGuess] = useState('');
     const [feedback, setFeedback] = useState('');
@@ -9,6 +9,7 @@ const WordleGame = () => {
     const handleGuessChange = (event) => {
         setUserGuess(event.target.value);
     };
+
 
     const handleCheckGuess = () => {
         const correctLetters = [];
@@ -30,7 +31,7 @@ const WordleGame = () => {
         <div className="wordle-game">
             <h1>Wordle Game</h1>
             <p>Guess the word of {selectedWord.length} letters</p>
-            <input
+            <input className='input2'
                 type="text"
                 value={userGuess}
                 onChange={handleGuessChange}

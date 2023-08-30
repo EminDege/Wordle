@@ -3,11 +3,11 @@
     margin-top: 100px;
 }
 
-input {
+.input2 {
     text-transform: lowercase;
     padding: 5px;
     margin: 10px;
-    width: 200px;
+    width: 150px;
     text-align: center;
     font-size: 18px;
 }
