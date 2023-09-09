@@ -1,6 +1,6 @@
 .wordle-game {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .input2 {
@@ -33,14 +33,38 @@ button {
     margin: 0 5px;
 }
 
-.green {
-    background-color: green;
+.wordle-board {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px
 }
 
-.yellow {
-    background-color: yellow;
+.guesses {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
 }
 
-.red {
-    background-color: red;
+input {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 18px;
+    margin: 0 5px;
+}
+
+h1,
+p {
+    margin: 0;
+}
+
+.keyboard button {
+    margin: 2px 2px;
+    border-radius: 8px;
 }
