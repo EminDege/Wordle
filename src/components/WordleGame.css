@@ -1,6 +1,11 @@
 .wordle-game {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 40px;
+}
+
+h1 {
+    margin: 0;
+    padding-bottom: 40px;
 }
 
 .input2 {
@@ -10,34 +15,34 @@
     width: 150px;
     text-align: center;
     font-size: 18px;
+    height: 30px;
 }
 
 button {
-    background-color: #007bff;
+    background-color: #0060c7;
     color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
+    border-radius: 10px;
 }
 
-.feedback {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-}
-
-.feedback-circle {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
+input {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    text-align: center;
+    font-size: 18px;
     margin: 0 5px;
+    background-color: #7a7a7a;
+    color: #fff;
+    border-radius: 5px;
 }
 
 .wordle-board {
     text-align: center;
     padding: 20px;
-    background-color: #f8f8f8;
-    border: 1px solid #ccc;
+
     border-radius: 5px;
     width: 300px;
     margin: 0 auto;
@@ -48,20 +53,6 @@ button {
     display: flex;
     justify-content: center;
     margin: 5px;
-}
-
-input {
-    width: 30px;
-    height: 30px;
-    border: 1px solid #ccc;
-    text-align: center;
-    font-size: 18px;
-    margin: 0 5px;
-}
-
-h1,
-p {
-    margin: 0;
 }
 
 .keyboard button {
